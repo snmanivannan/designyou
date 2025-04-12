@@ -34,7 +34,7 @@ export default function Header() {
             <div className="mr-2 relative w-8 h-8">
               {/* Replace with your actual logo */}
               <div className="w-8 h-8 bg-green-500 rounded-md flex items-center justify-center">
-                <span className="text-white font-bold">DY</span>
+                <span className="text-white font-bold">DU</span>
               </div>
             </div>
             <span className={`font-bold text-xl ${scrolled ? 'text-blue-600' : 'text-white'}`}>
