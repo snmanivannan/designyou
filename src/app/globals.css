@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1a5276;
+  --secondary-color: #2ecc71;
+  --accent-color: #3498db;
+  --text-color: #333333;
+  --background-light: #f9f9f9;
+  --background-dark: #0f172a;
+}
+
+body {
+  color: var(--text-color);
+  background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl xl:text-6xl;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl;
+}
+
+h3 {
+  @apply text-2xl md:text-3xl;
+}
+
+h4 {
+  @apply text-xl md:text-2xl;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+.btn {
+  @apply px-6 py-3 rounded-md font-medium transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply bg-green-500 text-white hover:bg-green-600;
+}
+
+.btn-outline {
+  @apply border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white;
+}
+
+.container {
+  @apply mx-auto px-4 md:px-8;
+}
+
+.section {
+  @apply py-12 md:py-20;
+}
+
+.section-title {
+  @apply text-center mb-12;
+}
+
+.section-title h2 {
+  @apply relative inline-block pb-4;
+}
+
+.section-title h2:after {
+  content: '';
+  @apply absolute bottom-0 left-1/4 right-1/4 h-1 bg-green-500;
+}
