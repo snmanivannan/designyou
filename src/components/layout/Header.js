@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from './Navbar'
-import MobileMenu from './Mobilemenu'
+import MobileMenu from './MobileMenu'
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false)
