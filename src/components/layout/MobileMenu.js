@@ -9,9 +9,10 @@ export default function MobileMenu({ isOpen, setIsOpen }) {
   
   const navItems = [
     { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Services', path: '/services' },
-    { name: 'Projects', path: '/projects' },
+    { name: 'About', path: '/#about' },
+    { name: 'Services', path: '/#services' },
+    { name: 'Interior Projects', path: '/#projects' },
+    { name: 'Software', path: '/software' },
     { name: 'Contact', path: '/contact' },
   ]
 
