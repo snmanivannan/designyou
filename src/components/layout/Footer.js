@@ -48,7 +48,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <FaMapMarkerAlt className="mt-1 mr-3 text-green-400" />
-                <span className="text-gray-300">27B Tech Park, Innovation District, Chennai - 600028</span>
+                <span className="text-gray-300">#02-769, Phase 3 Spencer Plaza, Anna Salai, Chennai - 600002</span>
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-3 text-green-400" />
