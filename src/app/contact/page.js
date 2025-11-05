@@ -83,8 +83,8 @@ export default function Contact() {
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold">Our Office</h4>
                     <p className="text-gray-600">
-                      27B Tech Park, Innovation District,<br />
-                      Chennai - 600028, Tamil Nadu, India
+                      #02-769, Phase 3 Spencer Plaza,<br />
+                      Anna Salai, Chennai - 600002
                     </p>
                   </div>
                 </div>
