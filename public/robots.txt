@@ -1,0 +1,15 @@
+# robots.txt for DesignYou Solutions
+
+# Allow all user agents to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of admin or private areas (add as needed)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Crawl delay (optional - only if needed to prevent server overload)
+# Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.designyou.in/sitemap.xml
